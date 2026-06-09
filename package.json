@@ -1,5 +1,5 @@
 {
-  "name": "@rafaeldasilvadeveloper/zod-meta-form",
+  "name": "@rafaelsilvadeveloper/zod-meta-form",
   "version": "1.0.1",
   "description": "A framework-agnostic generator of Form UI metadata from Zod schemas, converting schemas into client-ready forms.",
   "repository": {

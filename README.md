@@ -1,10 +1,10 @@
-# @rafaeldasilvadeveloper/zod-meta-form
+# @rafaelsilvadeveloper/zod-meta-form
 
 A framework-agnostic generator of Form UI metadata from Zod schemas, converting schemas into dynamic, client-ready forms.
 
-[![NPM Version](https://img.shields.io/npm/v/@rafaeldasilvadeveloper/zod-meta-form.svg?style=flat-square)](https://www.npmjs.com/package/@rafaeldasilvadeveloper/zod-meta-form)
+[![NPM Version](https://img.shields.io/npm/v/@rafaelsilvadeveloper/zod-meta-form.svg?style=flat-square)](https://www.npmjs.com/package/@rafaelsilvadeveloper/zod-meta-form)
 [![Discord Support](https://img.shields.io/discord/1111111111?color=7289da&label=Discord&logo=discord&style=flat-square)](https://discord.gg/7Fw7snafYS)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-blueviolet.svg?style=flat-square)](https://www.npmjs.com/package/@rafaeldasilvadeveloper/zod-meta-form)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-blueviolet.svg?style=flat-square)](https://www.npmjs.com/package/@rafaelsilvadeveloper/zod-meta-form)
 
 ## Features
 
@@ -17,14 +17,14 @@ A framework-agnostic generator of Form UI metadata from Zod schemas, converting 
 ## Installation
 
 ```bash
-npm install @rafaeldasilvadeveloper/zod-meta-form zod
+npm install @rafaelsilvadeveloper/zod-meta-form zod
 ```
 
 ## Usage
 
 ```typescript
 import { z } from 'zod';
-import { zodToFormMeta } from '@rafaeldasilvadeveloper/zod-meta-form';
+import { zodToFormMeta } from '@rafaelsilvadeveloper/zod-meta-form';
 
 // 1. Define your Zod schema
 const signupSchema = z.object({
