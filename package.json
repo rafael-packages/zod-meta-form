@@ -1,6 +1,6 @@
 {
   "name": "@rafaelsilvadeveloper/zod-meta-form",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A framework-agnostic generator of Form UI metadata from Zod schemas, converting schemas into client-ready forms.",
   "repository": {
     "type": "git",
