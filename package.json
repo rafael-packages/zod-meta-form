@@ -1,0 +1,49 @@
+{
+  "name": "@rafaelsilvadeveloper/zod-meta-form",
+  "version": "2.0.0",
+  "description": "A framework-agnostic generator of Form UI metadata from Zod schemas, converting schemas into client-ready forms.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-packages/zod-meta-form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafael-packages/zod-meta-form/issues"
+  },
+  "homepage": "https://github.com/rafael-packages/zod-meta-form#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepare": "bun run build",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts tests/**/*.ts"
+  },
+  "keywords": [
+    "zod",
+    "form",
+    "metadata",
+    "form-generator",
+    "typescript",
+    "schema",
+    "validation"
+  ],
+  "author": "realkalashnikov",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "zod": "^3.23.8"
+  }
+}
